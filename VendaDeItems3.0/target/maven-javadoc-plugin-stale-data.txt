@@ -1,0 +1,45 @@
+-J-Duser.language=
+-J-Duser.country=
+@options
+@packages
+-classpath
+'C:/Users/JúliaGoulartCunha/.m2/repository/org/postgresql/postgresql/42.7.5/postgresql-42.7.5.jar'
+-encoding
+'UTF-8'
+-protected
+--release
+23
+-sourcepath
+'C:/Users/JúliaGoulartCunha/Downloads/VendaDeItems3.0/VendaDeItems3.0/src/main/java'
+-author
+-bottom
+'Copyright &#169; 2025. All rights reserved.'
+-charset
+'UTF-8'
+-d
+'C:/Users/JúliaGoulartCunha/Downloads/VendaDeItems3.0/VendaDeItems3.0/target/reports/apidocs'
+-docencoding
+'UTF-8'
+-doctitle
+'VendaDeItems 3.0-SNAPSHOT API'
+-use
+-version
+-windowtitle
+'VendaDeItems 3.0-SNAPSHOT API'
+com.mycompany.vendadeitems
+C:\Users\JúliaGoulartCunha\.m2\repository\org\postgresql\postgresql\42.7.5\postgresql-42.7.5.jar = 1738759599275
+C:\Users\JúliaGoulartCunha\Downloads\VendaDeItems3.0\VendaDeItems3.0\src\main\java = 1739040888886
+C:\Users\JúliaGoulartCunha\Downloads\VendaDeItems3.0\VendaDeItems3.0\target\reports\apidocs\allclasses-index.html = 1739041700638
+C:\Users\JúliaGoulartCunha\Downloads\VendaDeItems3.0\VendaDeItems3.0\target\reports\apidocs\allpackages-index.html = 1739041700644
+C:\Users\JúliaGoulartCunha\Downloads\VendaDeItems3.0\VendaDeItems3.0\target\reports\apidocs\element-list = 1739041700285
+C:\Users\JúliaGoulartCunha\Downloads\VendaDeItems3.0\VendaDeItems3.0\target\reports\apidocs\help-doc.html = 1739041700720
+C:\Users\JúliaGoulartCunha\Downloads\VendaDeItems3.0\VendaDeItems3.0\target\reports\apidocs\index-all.html = 1739041700706
+C:\Users\JúliaGoulartCunha\Downloads\VendaDeItems3.0\VendaDeItems3.0\target\reports\apidocs\index.html = 1739041700713
+C:\Users\JúliaGoulartCunha\Downloads\VendaDeItems3.0\VendaDeItems3.0\target\reports\apidocs\member-search-index.js = 1739041700657
+C:\Users\JúliaGoulartCunha\Downloads\VendaDeItems3.0\VendaDeItems3.0\target\reports\apidocs\module-search-index.js = 1739041700647
+C:\Users\JúliaGoulartCunha\Downloads\VendaDeItems3.0\VendaDeItems3.0\target\reports\apidocs\overview-tree.html = 1739041700607
+C:\Users\JúliaGoulartCunha\Downloads\VendaDeItems3.0\VendaDeItems3.0\target\reports\apidocs\package-search-index.js = 1739041700651
+C:\Users\JúliaGoulartCunha\Downloads\VendaDeItems3.0\VendaDeItems3.0\target\reports\apidocs\search.html = 1739041700709
+C:\Users\JúliaGoulartCunha\Downloads\VendaDeItems3.0\VendaDeItems3.0\target\reports\apidocs\serialized-form.html = 1739041700395
+C:\Users\JúliaGoulartCunha\Downloads\VendaDeItems3.0\VendaDeItems3.0\target\reports\apidocs\tag-search-index.js = 1739041700659
+C:\Users\JúliaGoulartCunha\Downloads\VendaDeItems3.0\VendaDeItems3.0\target\reports\apidocs\type-search-index.js = 1739041700655

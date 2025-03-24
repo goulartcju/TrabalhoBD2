@@ -1,0 +1,44 @@
+TABELAS TRABALHO 2 
+
+Armazena os produtos disponíveis para venda.
+CREATE TABLE produto (
+    id_produto SERIAL PRIMARY KEY,
+    nome VARCHAR(100) NOT NULL,
+    descricao TEXT,
+    preco NUMERIC(10, 2) NOT NULL,
+    estoque INT NOT NULL
+);
+
+Registra cada venda realizada.
+CREATE TABLE venda (
+    id_venda SERIAL PRIMARY KEY,
+    data_venda TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    id_usuario VARCHAR, -- Usuário que realizou a venda (opcional, para integração com segurança)
+    total NUMERIC(10, 2) NOT NULL
+);
+
+Registra os itens vendidos em cada venda (relacionamento entre venda e produto).
+CREATE TABLE item_venda (
+    id_item_venda SERIAL PRIMARY KEY,
+    id_venda INT REFERENCES venda(id_venda) ON DELETE CASCADE,
+    id_produto INT REFERENCES produto(id_produto) ON DELETE CASCADE,
+    quantidade INT NOT NULL,
+    preco_unitario NUMERIC(10, 2) NOT NULL,
+    subtotal NUMERIC(10, 2) GENERATED ALWAYS AS (quantidade * preco_unitario) STORED
+);
+
+Armazena os usuários do sistema (para a parte de segurança e controle de acesso).
+CREATE TABLE usuario (
+    id_usuario SERIAL PRIMARY KEY,
+    nome VARCHAR(100) NOT NULL,
+    login VARCHAR(50) UNIQUE NOT NULL,
+    senha VARCHAR(100) NOT NULL,
+    id_grupo INT -- Para associar o usuário a um grupo (opcional)
+);
+
+Armazena os grupos de usuários (para a parte de segurança).
+
+CREATE TABLE grupo (
+    id_grupo SERIAL PRIMARY KEY,
+    nome VARCHAR(100) NOT NULL
+);
